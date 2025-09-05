@@ -1,0 +1,138 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #f4a261;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 1.8rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #e76f51;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.hero button:hover {
+    background-color: #f4a261;
+}
+
+/* Menu Section */
+#menu {
+    background-color: #f1faee;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.menu-items .item {
+    width: 250px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.menu-items .item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.menu-items .item h3 {
+    color: #e76f51;
+    font-size: 1.5rem;
+}
+
+/* About Us Section */
+#about {
+    background-color: #264653;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #e9c46a;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #f4a261;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+form button:hover {
+    background-color: #e76f51;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
